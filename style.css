@@ -248,6 +248,7 @@ header {
   background-color: rgb(159, 155, 155);
   border-radius: 10px 0px 0px 10px;
   margin-right: 0;
+  outline: none;
 } 
 
 .subscibe {
