@@ -110,7 +110,7 @@ header {
 
 /* Donate Plan design */
 .donate-plan {
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
 }
 
@@ -160,4 +160,40 @@ header {
 
 .card h3 {
   font-size: 30px;
+}
+
+/* Motaivation seciton */
+.motivate {
+  width: 100vw;
+  height: 70vh;
+}
+.motaivation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+
+.info {
+  width: 660px;
+}
+.motaivation .info h1 {
+  font-size: 70px;
+}
+
+.motaivation .info p {
+  color: rgb(198, 194, 194);
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+.motaivation img {
+  width: 600px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 1px 23px 46px 0px #000;
+}
+
+.motivate1 .motaivation {
+  flex-direction: row-reverse;
 }
