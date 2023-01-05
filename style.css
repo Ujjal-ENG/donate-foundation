@@ -194,8 +194,68 @@ header {
 }
 .motivate1 {
   width: 100vw;
-  height: 80vh;
+  height: 70vh;
 }
 .motivate1 .motaivation {
   flex-direction: row-reverse;
+}
+
+/* Design the Updates part*/
+.updates {
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.update {
+  width: 1200px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.update h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.update p {
+  color: rgb(198, 194, 194);
+  font-size: 20px;
+  margin: 35px auto;
+  width: 600px;
+  text-align: center;
+}
+.update .box-update {
+  width: 1000px;
+  height: 250px;
+  background-color: rgba(244, 218, 231, 0.728);
+}
+
+.box-update{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+ input {
+  padding: 19px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(159, 155, 155);
+  border-radius: 10px 0px 0px 10px;
+  margin-right: 0;
+} 
+
+.subscibe {
+  padding: 16px 20px;
+  font-weight: bold;
+  font-size: 25px;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  background: salmon;
+  margin-left: 0px;
 }
