@@ -165,7 +165,7 @@ header {
 /* Motaivation seciton */
 .motivate {
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
 }
 .motaivation {
   display: flex;
@@ -191,9 +191,11 @@ header {
   width: 600px;
   height: 500px;
   border-radius: 10px;
-  box-shadow: 1px 23px 46px 0px #000;
 }
-
+.motivate1 {
+  width: 100vw;
+  height: 80vh;
+}
 .motivate1 .motaivation {
   flex-direction: row-reverse;
 }
